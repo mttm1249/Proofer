@@ -120,6 +120,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         self.navigationItem.rightBarButtonItem = rightBarButton
     }
     
+    // Filter content method
     func filterContentForSearchText(_ searchText: String) {
         filteredArrayOfCards = arrayOfCards.filter { (card: Card) -> Bool in
             if searchBy == "name" {
@@ -131,7 +132,6 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
         collectionView.reloadData()
     }
-    
     
     // SearchBar
     private func setupSearchBar() {
