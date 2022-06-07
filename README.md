@@ -10,7 +10,7 @@
 <img src="https://user-images.githubusercontent.com/87662841/172224760-e3fdea2b-518d-47b7-a319-8907ba79a657.PNG" width="230" height="500"> <img src="https://user-images.githubusercontent.com/87662841/172224772-f17c4e58-65a2-4e63-825b-fbd3c0b103a5.PNG" width="230" height="500"> 
 
 ## Installation: 
-1. Download archive with progect.
+1. Download archive with project.
 2. Unzip it.
 3. Open with Xcode.
 4. Install on iPhone with iOS 15.0+
